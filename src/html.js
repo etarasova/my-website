@@ -30,7 +30,6 @@ export default function HTML(props) {
         <script src={'js/browser.min.js'} type="text/javascript" />
         <script src={'js/breakpoints.min.js'} type="text/javascript" />
         <script src={'js/util.js'} type="text/javascript" />
-        <script src={'js/main.js'} type="text/javascript" />
       </body>
     </html>
   )
