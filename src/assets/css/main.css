@@ -1386,6 +1386,7 @@ button,
     #main > section.four {
       background-color: #e8edec; }
 
+.safari #main .one,
 .mobile-safari #main .one {
   background-attachment: scroll; }
 
