@@ -6,6 +6,7 @@ import * as loadScript from "simple-load-script"
 import favicon from "../../static/favicon.ico.png"
 import Header from "./header/header"
 import Footer from "./footer"
+import {getDeviceClasses} from "../utils";
 
 class Layout extends React.Component {
 
@@ -13,13 +14,17 @@ class Layout extends React.Component {
     void loadScript({
       url: withPrefix("js/main.js"),
       inBody: true
-    })
+    });
+
+    // see https://github.com/gatsbyjs/gatsby/issues/14601
+    this.deviceClasses = getDeviceClasses();
+    this.forceUpdate();
   }
 
   render() {
     return (
       <>
-        <Helmet>
+        <Helmet htmlAttributes={{"class": this.deviceClasses}}>
           <link rel="icon" href={favicon}/>
           <title>{`Elena Tarasova | ${this.props.pageTitle}`}</title>
         </Helmet>
