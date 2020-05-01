@@ -761,16 +761,16 @@
 			}
 
 			&.one {
-                background-color: #81918E;
-                background-attachment: fixed;
-                @include vendor('background-image', ('linear-gradient(top, #{_palette(bg-transparent)}, #{_palette(bg-transparent)})', 'url("../images/banner.jpg");'));
-                background-position: center center;
-                background-size: cover;
-                box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25);
-                min-height: 100vh;
-                position: relative;
-                text-align: center;
-                z-index: (_misc(max-spotlight) + 1);
+				background-color: #81918E;
+				background-attachment: fixed;
+				@include vendor('background-image', ('linear-gradient(top, #{_palette(bg-transparent)}, #{_palette(bg-transparent)})', 'url("../images/banner.jpg");'));
+				background-position: center center;
+				background-size: cover;
+				box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25);
+				min-height: 100vh;
+				position: relative;
+				text-align: center;
+				z-index: (_misc(max-spotlight) + 1);
 
 				header {
 					margin-top: 2em;
@@ -813,7 +813,7 @@
 						width: 1.5em;
 					}
 				}
-            }
+      }
 
 			&.two {
 				background-color: #f5fafa;
@@ -828,6 +828,15 @@
 			}
 		}
 	}
+
+	.mobile-safari {
+		#main {
+			.one {
+				background-attachment: scroll;
+			}
+		}
+	}
+
 
 /* Wide */
 
