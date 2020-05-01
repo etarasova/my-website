@@ -1386,6 +1386,9 @@ button,
     #main > section.four {
       background-color: #e8edec; }
 
+.mobile-safari #main .one {
+  background-attachment: scroll; }
+
 /* Wide */
 @media screen and (min-width: 961px) and (max-width: 1880px) {
   /* Basic */
