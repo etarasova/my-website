@@ -9,22 +9,22 @@ const Portfolio = props => (
         <h2>Portfolio</h2>
       </header>
 
-      <p>My portfolio is work in progress. Stop by later to see the projects I am working on.</p>
+      //<p></p>
 
       <div className="row">
         <div className="col-4 col-12-mobile">
           <article className="item">
             {/*<a href="#" className="image fit"><img src="images/pic02.jpg" alt=""/></a>*/} 
             <header>
-              <a href="#" target="_blank">Defect Prediction</a>
-              <h3>Python</h3>
+              <a href="https://github.com/etarasova/defect-prediction" target="_blank">Defect Prediction</a>
+              <h3>Python (Numpy, Pandas) </h3>
             </header>
           </article>
           <article className="item">
             {/*<a href="#" className="image fit"><img src="images/pic03.jpg" alt=""/></a>*/}
             <header>
               <a href="https://github.com/etarasova/SimpleToDo" target="_blank">Simple ToDo</a>
-              <h3>Java</h3>
+              <h3>Java (Android app)</h3>
             </header>
           </article>
         </div>
@@ -40,7 +40,7 @@ const Portfolio = props => (
             {/*<a href="#" className="image fit"><img src="images/pic05.jpg" alt=""/></a>*/}
             <header>
             <a href="https://github.com/etarasova/Flixster" target="_blank">Flixster</a>
-            <h3>Java</h3>
+            <h3>Java (Android app)</h3>
             </header>
           </article>
         </div>
@@ -56,7 +56,7 @@ const Portfolio = props => (
             {/*<a href="#" className="image fit"><img src="images/pic07.jpg" alt=""/></a>*/}
             <header>
             <a href="https://github.com/etarasova/SimpleTweet" target="_blank">SimpleTweet</a>
-            <h3>Java</h3>
+            <h3>Java (Android app)</h3>
             </header>
           </article>
         </div>
