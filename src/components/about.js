@@ -34,13 +34,13 @@ const About = () => (
       <div className="image featured"><AboutImage/></div>
 
       <p>Hi, I am Elena. I moved to New York from Saint-Petersburg, Russia in 2017.
-        In the past, I was a multi-tasking PR Project Manager with 5+ years of experience.
-        I have good communication skills and enjoy working in teams of all sizes.
-        You may find my resume <strong><a href="#">here</a></strong>.</p>
+        In the past, I was a multi-tasking PR Project Manager with 5+ years of experience, so I have great communication and organizational skills. 
+        I can follow orders and work as a team without any problems but I also have the ability to work alone and still meet tight deadlines.
 
-      <p>Currently I am working toward my CS degree in Brooklyn College. I would like to
-        become an agile and advanced software developer. I have some experience with <strong>HTML/CSS,
-          Javascript and Java</strong>. I really enjoy working on solutions that make me think and teach me something new. </p>
+        You may find my resume <strong><a href="ElenaTarasova_Resume">here</a></strong>.</p>
+
+      <p>I recently graduated from Brooklyn College with a bachelor&#39;s degree in Computer Science. I have outstanding problem skills with the ability to work with technical and abstract concepts efficiently. 
+      I also have extensive knowledge of <strong> Python, Java, JavaScript, HTML5, and CSS </strong>. I really enjoy working on solutions that make me think and teach me something new. </p>
 
     </div>
   </section>
