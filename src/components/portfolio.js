@@ -16,16 +16,17 @@ const Portfolio = props => (
           <article className="item">
             {/*<a href="#" className="image fit"><img src="images/pic02.jpg" alt=""/></a>*/} 
             <header>
+              <a href="#" target="_blank">Defect Prediction</a>
+              <h3>Python</h3>
+            </header>
+          </article>
+          <article className="item">
+            {/*<a href="#" className="image fit"><img src="images/pic03.jpg" alt=""/></a>*/}
+            <header>
               <a href="https://github.com/etarasova/SimpleToDo" target="_blank">Simple ToDo</a>
               <h3>Java</h3>
             </header>
           </article>
-          //<article className="item">
-            //{/*<a href="#" className="image fit"><img src="images/pic03.jpg" alt=""/></a>*/}
-            //<header>
-              //<h3>Project 4</h3>
-            //</header>
-          //</article>
         </div>
         <div className="col-4 col-12-mobile">
           <article className="item">
@@ -35,12 +36,13 @@ const Portfolio = props => (
               <h3>Python</h3>
             </header>
           </article>
-          //<article className="item">
-            //{/*<a href="#" className="image fit"><img src="images/pic05.jpg" alt=""/></a>*/}
-            //<header>
-              //<h3>Project 5</h3>
-            //</header>
-          //</article>
+          <article className="item">
+            {/*<a href="#" className="image fit"><img src="images/pic05.jpg" alt=""/></a>*/}
+            <header>
+            <a href="https://github.com/etarasova/Flixster" target="_blank">Flixster</a>
+            <h3>Java</h3>
+            </header>
+          </article>
         </div>
         <div className="col-4 col-12-mobile">
           <article className="item">
@@ -50,12 +52,13 @@ const Portfolio = props => (
               <h3>Python</h3>
             </header>
           </article>
-          //<article className="item">
-            //{/*<a href="#" className="image fit"><img src="images/pic07.jpg" alt=""/></a>*/}
-            //<header>
-              //<h3>Project 6</h3>
-            //</header>
-          //</article>
+          <article className="item">
+            {/*<a href="#" className="image fit"><img src="images/pic07.jpg" alt=""/></a>*/}
+            <header>
+            <a href="https://github.com/etarasova/SimpleTweet" target="_blank">SimpleTweet</a>
+            <h3>Java</h3>
+            </header>
+          </article>
         </div>
       </div>
 
