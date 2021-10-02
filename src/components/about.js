@@ -37,7 +37,7 @@ const About = () => (
         In the past, I was a multi-tasking PR Project Manager with 5+ years of experience, so I have great communication and organizational skills. 
         I can follow orders and work as a team without any problems but I also have the ability to work alone and still meet tight deadlines.
 
-        You may find my resume <strong> <a href="ElenaTarasova_Resume.pdf" target="_blank">here</a></strong>. </p>
+        You may find my resume <strong> <a href="https://drive.google.com/file/d/1XbZfQss29dJHPVXNAlXUXrJidWxuwpfB/view?usp=sharing" target="_blank">here</a></strong>. </p>
 
       <p>I recently graduated from Brooklyn College with a bachelor&#39;s degree in Computer Science. I have outstanding problem skills with the ability to work with technical and abstract concepts efficiently. 
       I also have extensive knowledge of <strong> Python, Java, JavaScript, HTML5, and CSS </strong>. I really enjoy working on solutions that make me think and teach me something new. </p>
