@@ -30,7 +30,7 @@ const Portfolio = props => (
           <article className="item">
             {/*<a href="#" className="image fit"><img src="images/pic04.jpg" alt=""/></a>*/}
             <header>
-              <h3>Project 2</h3>
+              <a href="https://github.com/etarasova/price-tracker" target="_blank">Price Tracker</a>
             </header>
           </article>
           <article className="item">
@@ -44,7 +44,7 @@ const Portfolio = props => (
           <article className="item">
             {/*<a href="#" className="image fit"><img src="images/pic06.jpg" alt=""/></a>*/}
             <header>
-              <h3>Project 3</h3>
+              <a href="https://github.com/etarasova/hacker-news" target="_blank">Hacker News</a>
             </header>
           </article>
           <article className="item">
