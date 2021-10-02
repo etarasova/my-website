@@ -6,7 +6,7 @@ const Logo = props => (
   <div id="logo">
     <span className="image avatar48"><img src={avatar} alt=""/></span>
     <h1 id="title">Elena Tarasova</h1>
-    <p>Computer Science Student</p>
+    <p>Junior Software Developer</p>
   </div>
 
 )
