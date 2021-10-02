@@ -14,9 +14,9 @@ const Portfolio = props => (
       <div className="row">
         <div className="col-4 col-12-mobile">
           <article className="item">
-            {/*<a href="#" className="image fit"><img src="images/pic02.jpg" alt=""/></a>*/}
+            {/*<a href="https://github.com/etarasova/SimpleToDo" className="image fit"><img src="images/pic02.jpg" alt=""/></a>*/}
             <header>
-              <h3>Project 1</h3>
+              <h3>Simple ToDo</h3>
             </header>
           </article>
           <article className="item">
