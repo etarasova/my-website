@@ -9,8 +9,6 @@ const Portfolio = props => (
         <h2>Portfolio</h2>
       </header>
 
-      //<p></p>
-
       <div className="row">
         <div className="col-4 col-12-mobile">
           <article className="item">
